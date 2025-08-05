@@ -2,7 +2,7 @@
 
 This is the register file module of a custom 4-bit breadboard CPU built entirely from scratch using discrete components. The project focuses on low-level hardware design, emphasizing foundational digital electronics without microcontrollers or EEPROMs.
 
-## 🧠 Overview
+## Overview
 
 The module implements a 4-bit register file containing:
 - **Register A** – General-purpose
@@ -19,7 +19,7 @@ Each 4-bit instruction triggers a unique 7-bit control word.
 
 ---
 
-## ⚙️ Features
+## Features
 
 - Built with D flip-flops and tri-state buffers
 - Load and move operations between registers and bus
@@ -48,7 +48,7 @@ Each 4-bit instruction triggers a unique 7-bit control word.
 
 ---
 
-## 🧩 Structure
+## Structure
 
 - **Registers**: D flip-flops store 4-bit values
 - **Control**: Each register is controlled via demux and tri-state buffers
@@ -58,7 +58,7 @@ Each 4-bit instruction triggers a unique 7-bit control word.
 
 ---
 
-## 🔧 Tools & Components
+## Tools & Components
 
 - 74-series logic ICs
 - Manual DIP switches for input
@@ -68,7 +68,7 @@ Each 4-bit instruction triggers a unique 7-bit control word.
 
 ---
 
-## 🔜 Upcoming
+## Upcoming
 
 This register file is part of a larger CPU project including:
 - Arithmetic Logic Unit (ALU)
