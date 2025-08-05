@@ -17,6 +17,12 @@ Control of all operations is done via a **hardwired ROM-like logic unit**, built
 
 Each 4-bit instruction triggers a unique 7-bit control word.
 
+## 🔍 Control ROM Map
+
+This PDF contains the complete mapping between the 4-bit instruction input and the 8-bit control word used to drive the register file.
+
+📄 [View ROM Map](./control_rom_map.pdf)
+
 ---
 
 ## Features
