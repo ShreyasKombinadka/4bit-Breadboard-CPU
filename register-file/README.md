@@ -27,6 +27,11 @@ Each 4-bit instruction triggers a unique 7-bit control word.
 - Unified clock and reset gating via master enable signal
 - Custom control ROM maps instructions (0000–1111) to specific operations
 
+---
+
+![Detailed Register File Setup](./Copy%20of%20Detailed%20image.jpg)
+
+---
 ### Instruction Set
 
 | Opcode | Operation                        |
