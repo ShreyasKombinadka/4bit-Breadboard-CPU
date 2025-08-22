@@ -32,9 +32,9 @@ Each 4-bit instruction triggers a unique 7-bit control word.
 | Opcode | Operation                        |
 |--------|----------------------------------|
 | 0000   | NOP                              |
-| 0001   | Load user input → RegA           |
-| 0010   | Load user input → RegB           |
-| 0011   | Load user input → RegOP          |
+| 0001   | LDI → RegA                       |
+| 0010   | LDI → RegB                       |
+| 0011   | LDI → RegOP                      |
 | 0100   | Load BUS → RegA                  |
 | 0101   | Load BUS → RegB                  |
 | 0110   | Output RegA → BUS                |
